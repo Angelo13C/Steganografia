@@ -1,19 +1,9 @@
-# PASSWORD MANAGER
+# Steganografia
+Un app per nascondere delle informazioni private in altre pubbliche (un testo in un altro testo, o un'immagine in un'altra immagine), usando delle tecniche di base di steganografia.
 
-## Tabella dei contenuti
+## Video
+Questo è un esempio dell'app che riesce a nascondere il testo "Come va?" dentro "Ciao":
 
-- [Installazione](#installazione)
-- [Utilizzo](#utilizzo)
-- [Funzionamento interno](#funzionamento-interno)
+https://github.com/Angelo13C/Steganografia/assets/55251189/b8171ee2-3585-4616-8a54-4ef19e870bd2
 
-## Conversione in exe
-Per convertire il programma in exe, usare:
-```python -m auto_py_to_exe```
-
-## Installazione
-
-Per installare il password manager, eseguire il seguente comando su terminale:
-
-```pip install .```
-
-Questo comando andrà a vedere nel file setup.py tutte le dipendenze del programma (install_requires), e le installerà automaticamente.
+Le immagini nascoste invece hanno dei limiti: sono di bassa qualità, se vengono compresse l'immagine nascosta diventa irrecuperabile (quindi non si possono inviare normalmente su alcuni canali di messagistica, come WhatsApp)
